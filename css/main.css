@@ -1,0 +1,272 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,400;0,500;1,300;1,700 & display=swap");
+h1 {
+  width: 90%;
+  padding-top: 5%;
+  font-size: 1em;
+  color: aliceblue;
+  text-align: center;
+  line-height: 150px;
+  /* Ajusta el espacio superior según tus necesidades */
+}
+
+h2 {
+  margin: 1em;
+  padding: 1em;
+  text-decoration: dashed;
+  text-align: center;
+  color: black;
+}
+
+footer {
+  background-image: url(../assets/img/svg.png);
+  width: 100%;
+  font-size: 1em;
+}
+
+footer div {
+  display: inline-block;
+}
+
+footer div p {
+  line-height: 2;
+  font-size: 1em;
+}
+
+.redes {
+  width: 50%;
+  margin: 0.5%;
+}
+
+.icons {
+  text-decoration: none;
+  padding-left: 20px;
+  color: black;
+}
+
+nav {
+  background-color: black;
+  width: 100%;
+  padding: 6px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a img {
+  display: inline-block;
+  text-align: left;
+  width: 15%;
+  padding: 0;
+  margin: 0;
+  background-color: aqua;
+}
+
+nav div ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav div ul li {
+  display: inline-block;
+}
+
+nav div ul li a {
+  display: inline-block;
+  text-align: right;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1em;
+  margin: auto 10px;
+}
+
+nav div ul li a:hover {
+  background: black;
+}
+
+@media (width < 468px) {
+  #galeria {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 45vh);
+  }
+  .sectioncards {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    width: 90%;
+  }
+  .video {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 70px;
+  }
+  nav a img {
+    width: 100%;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  nav ul li {
+    margin-right: 1px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.1em;
+  }
+  h1 {
+    width: 100%;
+    height: 50%;
+  }
+}
+@media (width < 742px) {
+  #galeria {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 45vh);
+  }
+  .sectioncards {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    width: 90%;
+  }
+}
+.fondoheader {
+  background-image: url(../assets/img/headerindex.jpg);
+}
+
+.fotoservicio {
+  background-image: url(../assets/img/fondodeservicio.jpg);
+}
+
+.fondonosotros {
+  background-image: url(../assets/img/fondonosotros.jpg);
+}
+
+.fondocontacto {
+  background-image: url(../assets/img/contactenos.jpg);
+}
+
+.fondoturnos {
+  background-image: url(../assets/img/turnosdisponible.webp);
+}
+
+.video {
+  margin: 1em;
+  padding: 2em;
+  text-align: center;
+}
+
+#galeria img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.foto.a {
+  grid-area: fota;
+}
+
+.foto.b {
+  grid-area: fotb;
+}
+
+.foto.c {
+  grid-area: fotc;
+}
+
+.foto.d {
+  grid-area: fotd;
+}
+
+#galeria {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(2, 55vh);
+  grid-template-areas: "fota" "fotb" "fotc" "fotd";
+}
+
+.maps {
+  width: 42%;
+  margin-right: 0;
+  text-align-last: right;
+  display: inline-block;
+}
+
+.ubicacion {
+  margin: 1em;
+  padding: 1em;
+  object-fit: cover;
+  width: 50%;
+}
+
+.infocentral {
+  display: flex;
+  flex-direction: column;
+}
+
+.oracionderelleno {
+  margin: 1em;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 1em;
+}
+
+.pnosotros {
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1em;
+}
+
+.maincontacto {
+  display: inline-block;
+  width: 100%;
+}
+
+.sectioncards {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 20%;
+  box-shadow: -1px 2px 27px 16px rgba(0, 0, 0, 0.54);
+  -webkit-box-shadow: -1px 2px 27px 16px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: -1px 2px 27px 16px rgba(0, 0, 0, 0.54);
+  padding: 10px;
+  margin: 5%;
+}
+
+.card img {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+
+.tabladeturnos {
+  display: flex;
+  font-size: 1em;
+  width: 30%;
+  line-height: 2em;
+  margin: 1em;
+  padding: 1em;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=main.css.map */

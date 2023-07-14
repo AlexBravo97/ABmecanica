@@ -1,0 +1,46 @@
+nav {
+    background-color: $mainColor;
+    width: 100%;
+    padding: 6px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a img {
+    display: inline-block;
+    text-align: left;
+    width: 15%;
+    padding: 0;
+    margin: 0;
+    background-color:$thirdColor;
+}
+
+
+
+nav div ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+nav div ul li {
+    display: inline-block;
+
+}
+
+
+nav div ul li a {
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    color: $secondaryColor;
+    font-size: $textSm;
+    margin: auto 10px;
+
+}
+
+nav div ul li a:hover {
+    background: $mainColor
+}

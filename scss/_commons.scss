@@ -1,0 +1,46 @@
+h1 {
+    width: 90%;
+    padding-top: 5%;
+    font-size: $textSm;
+    color: $secondaryColor;
+    text-align: center;
+    line-height: 150px;
+    /* Ajusta el espacio superior según tus necesidades */
+}
+
+h2 {
+    margin: 1em;
+    padding: 1em;
+    text-decoration: dashed;
+    text-align: center;
+    color: $mainColor;
+}
+
+footer {
+
+    background-image: url(../assets/img/svg.png);
+
+    width: 100%;
+    font-size: $textSm;
+
+}
+
+footer div {
+    display: inline-block;
+}
+
+footer div p {
+    line-height: 2;
+    font-size: $textSm;
+}
+.redes {
+    width: 50%;
+    margin: 0.5%;
+}
+
+.icons {
+    text-decoration: none;
+    padding-left: 20px;
+    color: $mainColor;
+}
+

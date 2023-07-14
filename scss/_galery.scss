@@ -1,0 +1,72 @@
+.fondoheader {
+    background-image: url(../assets/img/headerindex.jpg);
+}
+
+.fotoservicio {
+    background-image: url(../assets/img/fondodeservicio.jpg);
+}
+
+.fondonosotros {
+    background-image: url(../assets/img/fondonosotros.jpg);
+}
+
+.fondocontacto {
+    background-image: url(../assets/img/contactenos.jpg);
+}
+
+.fondoturnos {
+    background-image: url(../assets/img/turnosdisponible.webp);
+}
+.video {
+    margin: 1em;
+    padding: 2em;
+    text-align: center;
+
+}
+#galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.foto.a {
+    grid-area: fota;
+}
+
+.foto.b {
+    grid-area: fotb;
+}
+
+.foto.c {
+    grid-area: fotc;
+}
+
+.foto.d {
+    grid-area: fotd;
+}
+
+#galeria {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 55vh);
+    grid-template-areas:
+        "fota" "fotb"
+        "fotc" "fotd";
+}
+.maps {
+    width: 42%;
+    margin-right: 0;
+    text-align-last: right;
+    display: inline-block;
+}
+.ubicacion {
+    margin: 1em;
+    padding: 1em;
+    object-fit: cover;
+    width: 50%;
+
+
+
+}

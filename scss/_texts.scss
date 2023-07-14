@@ -1,0 +1,25 @@
+.infocentral {
+    display: flex;
+    flex-direction: column;
+}
+
+.oracionderelleno {
+    margin: 1em;
+    padding: 0.5em;
+    text-align: center;
+    font-size: $textSm;
+}
+
+.pnosotros {
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    line-height: 1.5;
+    font-size: $textSm
+
+}
+
+.maincontacto {
+    display: inline-block;
+    width: 100%;
+}
