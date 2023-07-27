@@ -32,3 +32,4 @@ El proyecto fue testiado en distintas plataformas como opera, firefox, y chrome,
 Desde ya agradezco por todo lo brindado y la buena actidudes y energia de todos los compañeros, tutores y profesoras!
 
 LINKS: 
+https://github.com/AlexBravo97/ABmecanica.git
